@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFD7473719263F9000D44F84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD7473619263F9000D44F84 /* Foundation.framework */; };
+		EFD7473919263F9000D44F84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD7473819263F9000D44F84 /* CoreGraphics.framework */; };
+		EFD7473B19263F9000D44F84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD7473A19263F9000D44F84 /* UIKit.framework */; };
+		EFD7474119263F9000D44F84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFD7473F19263F9000D44F84 /* InfoPlist.strings */; };
+		EFD7474319263F9000D44F84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7474219263F9000D44F84 /* main.m */; };
+		EFD7474719263F9000D44F84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7474619263F9000D44F84 /* AppDelegate.m */; };
+		EFD7474A19263F9000D44F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD7474819263F9000D44F84 /* Main.storyboard */; };
+		EFD7474D19263F9000D44F84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7474C19263F9000D44F84 /* ViewController.m */; };
+		EFD7474F19263F9000D44F84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD7474E19263F9000D44F84 /* Images.xcassets */; };
+		EFD7475619263F9000D44F84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD7475519263F9000D44F84 /* XCTest.framework */; };
+		EFD7475719263F9000D44F84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD7473619263F9000D44F84 /* Foundation.framework */; };
+		EFD7475819263F9000D44F84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD7473A19263F9000D44F84 /* UIKit.framework */; };
+		EFD7476019263F9000D44F84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFD7475E19263F9000D44F84 /* InfoPlist.strings */; };
+		EFD7476219263F9000D44F84 /* sms_client_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7476119263F9000D44F84 /* sms_client_iosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD7475919263F9000D44F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD7472B19263F9000D44F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD7473219263F9000D44F84;
+			remoteInfo = "sms-client-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFD7473319263F9000D44F84 /* sms-client-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sms-client-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD7473619263F9000D44F84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFD7473819263F9000D44F84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFD7473A19263F9000D44F84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFD7473E19263F9000D44F84 /* sms-client-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sms-client-ios-Info.plist"; sourceTree = "<group>"; };
+		EFD7474019263F9000D44F84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFD7474219263F9000D44F84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD7474419263F9000D44F84 /* sms-client-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sms-client-ios-Prefix.pch"; sourceTree = "<group>"; };
+		EFD7474519263F9000D44F84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFD7474619263F9000D44F84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFD7474919263F9000D44F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD7474B19263F9000D44F84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFD7474C19263F9000D44F84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFD7474E19263F9000D44F84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFD7475419263F9000D44F84 /* sms-client-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sms-client-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD7475519263F9000D44F84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EFD7475D19263F9000D44F84 /* sms-client-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sms-client-iosTests-Info.plist"; sourceTree = "<group>"; };
+		EFD7475F19263F9000D44F84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFD7476119263F9000D44F84 /* sms_client_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sms_client_iosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD7473019263F9000D44F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD7473919263F9000D44F84 /* CoreGraphics.framework in Frameworks */,
+				EFD7473B19263F9000D44F84 /* UIKit.framework in Frameworks */,
+				EFD7473719263F9000D44F84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD7475119263F9000D44F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD7475619263F9000D44F84 /* XCTest.framework in Frameworks */,
+				EFD7475819263F9000D44F84 /* UIKit.framework in Frameworks */,
+				EFD7475719263F9000D44F84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD7472A19263F9000D44F84 = {
+			isa = PBXGroup;
+			children = (
+				EFD7473C19263F9000D44F84 /* sms-client-ios */,
+				EFD7475B19263F9000D44F84 /* sms-client-iosTests */,
+				EFD7473519263F9000D44F84 /* Frameworks */,
+				EFD7473419263F9000D44F84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD7473419263F9000D44F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7473319263F9000D44F84 /* sms-client-ios.app */,
+				EFD7475419263F9000D44F84 /* sms-client-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD7473519263F9000D44F84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7473619263F9000D44F84 /* Foundation.framework */,
+				EFD7473819263F9000D44F84 /* CoreGraphics.framework */,
+				EFD7473A19263F9000D44F84 /* UIKit.framework */,
+				EFD7475519263F9000D44F84 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFD7473C19263F9000D44F84 /* sms-client-ios */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7474519263F9000D44F84 /* AppDelegate.h */,
+				EFD7474619263F9000D44F84 /* AppDelegate.m */,
+				EFD7474819263F9000D44F84 /* Main.storyboard */,
+				EFD7474B19263F9000D44F84 /* ViewController.h */,
+				EFD7474C19263F9000D44F84 /* ViewController.m */,
+				EFD7474E19263F9000D44F84 /* Images.xcassets */,
+				EFD7473D19263F9000D44F84 /* Supporting Files */,
+			);
+			path = "sms-client-ios";
+			sourceTree = "<group>";
+		};
+		EFD7473D19263F9000D44F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7473E19263F9000D44F84 /* sms-client-ios-Info.plist */,
+				EFD7473F19263F9000D44F84 /* InfoPlist.strings */,
+				EFD7474219263F9000D44F84 /* main.m */,
+				EFD7474419263F9000D44F84 /* sms-client-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD7475B19263F9000D44F84 /* sms-client-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7476119263F9000D44F84 /* sms_client_iosTests.m */,
+				EFD7475C19263F9000D44F84 /* Supporting Files */,
+			);
+			path = "sms-client-iosTests";
+			sourceTree = "<group>";
+		};
+		EFD7475C19263F9000D44F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7475D19263F9000D44F84 /* sms-client-iosTests-Info.plist */,
+				EFD7475E19263F9000D44F84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD7473219263F9000D44F84 /* sms-client-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD7476519263F9000D44F84 /* Build configuration list for PBXNativeTarget "sms-client-ios" */;
+			buildPhases = (
+				EFD7472F19263F9000D44F84 /* Sources */,
+				EFD7473019263F9000D44F84 /* Frameworks */,
+				EFD7473119263F9000D44F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sms-client-ios";
+			productName = "sms-client-ios";
+			productReference = EFD7473319263F9000D44F84 /* sms-client-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD7475319263F9000D44F84 /* sms-client-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD7476819263F9000D44F84 /* Build configuration list for PBXNativeTarget "sms-client-iosTests" */;
+			buildPhases = (
+				EFD7475019263F9000D44F84 /* Sources */,
+				EFD7475119263F9000D44F84 /* Frameworks */,
+				EFD7475219263F9000D44F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD7475A19263F9000D44F84 /* PBXTargetDependency */,
+			);
+			name = "sms-client-iosTests";
+			productName = "sms-client-iosTests";
+			productReference = EFD7475419263F9000D44F84 /* sms-client-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD7472B19263F9000D44F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Swisscom Enterprise Solutions";
+				TargetAttributes = {
+					EFD7475319263F9000D44F84 = {
+						TestTargetID = EFD7473219263F9000D44F84;
+					};
+				};
+			};
+			buildConfigurationList = EFD7472E19263F9000D44F84 /* Build configuration list for PBXProject "sms-client-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD7472A19263F9000D44F84;
+			productRefGroup = EFD7473419263F9000D44F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD7473219263F9000D44F84 /* sms-client-ios */,
+				EFD7475319263F9000D44F84 /* sms-client-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD7473119263F9000D44F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD7474F19263F9000D44F84 /* Images.xcassets in Resources */,
+				EFD7474119263F9000D44F84 /* InfoPlist.strings in Resources */,
+				EFD7474A19263F9000D44F84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD7475219263F9000D44F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD7476019263F9000D44F84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD7472F19263F9000D44F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD7474D19263F9000D44F84 /* ViewController.m in Sources */,
+				EFD7474719263F9000D44F84 /* AppDelegate.m in Sources */,
+				EFD7474319263F9000D44F84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD7475019263F9000D44F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD7476219263F9000D44F84 /* sms_client_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD7475A19263F9000D44F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD7473219263F9000D44F84 /* sms-client-ios */;
+			targetProxy = EFD7475919263F9000D44F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD7473F19263F9000D44F84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD7474019263F9000D44F84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFD7474819263F9000D44F84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD7474919263F9000D44F84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD7475E19263F9000D44F84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD7475F19263F9000D44F84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD7476319263F9000D44F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFD7476419263F9000D44F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD7476619263F9000D44F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sms-client-ios/sms-client-ios-Prefix.pch";
+				INFOPLIST_FILE = "sms-client-ios/sms-client-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFD7476719263F9000D44F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sms-client-ios/sms-client-ios-Prefix.pch";
+				INFOPLIST_FILE = "sms-client-ios/sms-client-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFD7476919263F9000D44F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sms-client-ios.app/sms-client-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sms-client-ios/sms-client-ios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "sms-client-iosTests/sms-client-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EFD7476A19263F9000D44F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sms-client-ios.app/sms-client-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sms-client-ios/sms-client-ios-Prefix.pch";
+				INFOPLIST_FILE = "sms-client-iosTests/sms-client-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD7472E19263F9000D44F84 /* Build configuration list for PBXProject "sms-client-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD7476319263F9000D44F84 /* Debug */,
+				EFD7476419263F9000D44F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD7476519263F9000D44F84 /* Build configuration list for PBXNativeTarget "sms-client-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD7476619263F9000D44F84 /* Debug */,
+				EFD7476719263F9000D44F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFD7476819263F9000D44F84 /* Build configuration list for PBXNativeTarget "sms-client-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD7476919263F9000D44F84 /* Debug */,
+				EFD7476A19263F9000D44F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD7472B19263F9000D44F84 /* Project object */;
+}
